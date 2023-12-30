@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Luxurious+Roman&family=Romanesco&family=Whisper&display=swap');
+*{
+    
+    background-color: #540b0e;
+  
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    color: white;
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-family: 'Romanesco', sans-serif;
+}
+p{
+    color: white;
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-family: 'Romanesco', sans-serif;
+}
+h1, p {
+    text-align: center; /* Optional: Center-align the text */
+    margin-bottom: 10px; /* Adjust the margin as needed to control the spacing between elements */
+}
