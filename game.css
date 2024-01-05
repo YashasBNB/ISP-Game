@@ -1,0 +1,43 @@
+/* Reset some default styles */
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Set styles for images */
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Set styles for text bar at the bottom */
+#text-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 10px; /* Increased top and bottom padding, adjust as needed */
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center; /* Center the text horizontally */
+}
+
+/* Set styles for text content */
+#text-content {
+    margin: 0;
+    font-size: 25px;
+}
+
+/* Add styles for hiding inactive text and images within pair containers */
+.pair-container p.text:not(.active),
+.pair-container img.image:not(.active) {
+    display: none;
+}
